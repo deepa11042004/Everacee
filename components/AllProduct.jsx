@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+ 
 import { FaEye, FaHeart } from "react-icons/fa";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 
@@ -55,7 +55,7 @@ const products = [
     price: 44.0,
     rating: 4.5,
     reviews: 12,
-   image: "/img/product/kashmiri-almonds.jpg",
+   image: "/img/product/almonds.jpg",
     badge: "New",
     badgeColor: "bg-orange-500",
     originalPrice: null,

@@ -60,7 +60,7 @@ const products = [
     price: 44.0,
     rating: 4.5,
     reviews: 12,
-   image: "/img/product/kashmiri-almonds.jpg",
+   image: "/img/product/almonds.jpg",
     badge: "New",
     badgeColor: "bg-orange-500",
     originalPrice: null,
@@ -122,6 +122,7 @@ const products = [
     originalPrice: null,
   },
 ];
+
 
 const StarRating = ({ rating }) => {
   return (

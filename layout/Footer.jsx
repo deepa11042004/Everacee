@@ -22,9 +22,9 @@ const Footer = () => {
             <input 
               type="email" 
               placeholder="Enter Your Email" 
-              className="w-full lg:w-[400px] py-4 px-6 rounded-sm text-gray-800 outline-none bg-white"
+              className="w-full lg:w-100  py-4 px-6 rounded-sm text-gray-800 outline-none bg-white"
             />
-            <button className="font-bold text-gray-500 px-6 rounded-xl transition-colors bg-white py-4 px-2 uppercase tracking-wider text-sm">
+            <button className="font-bold text-gray-500 px-6 rounded-xl transition-colors bg-white py-4  uppercase tracking-wider text-sm">
               Submit
             </button>
           </div>

@@ -32,27 +32,27 @@ const Header = () => {
       hasDropdown: true,
       type: "narrow",
       children: [
-        { label: "Main Home", href: "https://greenpath.qodeinteractive.com/" },
+        { label: "Main Home", href: "/" },
         {
           label: "Organic Juice Store",
-          href: "https://greenpath.qodeinteractive.com/organic-juice-store/",
+          href: "/",
         },
         {
           label: "Organic Produce",
-          href: "https://greenpath.qodeinteractive.com/organic-produce/",
+          href: "/",
         },
         { label: "Nut Shop", href: "index.htm", active: true },
         {
           label: "Healthy Food",
-          href: "https://greenpath.qodeinteractive.com/healthy-food/",
+          href: "/",
         },
         {
           label: "Organic Market",
-          href: "https://greenpath.qodeinteractive.com/organic-market/",
+          href: "/",
         },
         {
           label: "Landing",
-          href: "https://greenpath.qodeinteractive.com/landing/",
+          href: "/",
         },
       ],
     },
@@ -64,23 +64,23 @@ const Header = () => {
       children: [
         {
           label: "About Us",
-          href: "https://greenpath.qodeinteractive.com/about-us/",
+          href: "/",
         },
         {
           label: "Gift Cards",
-          href: "https://greenpath.qodeinteractive.com/gift-cards/",
+          href: "/",
         },
         {
           label: "Reviews",
-          href: "https://greenpath.qodeinteractive.com/reviews/",
+          href: "/",
         },
         {
           label: "FAQ Page",
-          href: "https://greenpath.qodeinteractive.com/faq-page/",
+          href: "/",
         },
         {
           label: "Terms & Conditions",
-          href: "https://greenpath.qodeinteractive.com/terms-conditions/",
+          href: "/",
         },
       ],
     },
@@ -96,31 +96,31 @@ const Header = () => {
           children: [
             {
               label: "Shop Filter",
-              href: "https://greenpath.qodeinteractive.com/shop-filter/",
+              href: " /",
             },
             {
               label: "Shop Filter Wide",
-              href: "https://greenpath.qodeinteractive.com/shop-filter-wide/",
+              href: "/",
             },
             {
               label: "Shop Grid Filter",
-              href: "https://greenpath.qodeinteractive.com/shop-grid-filter/",
+              href: " /",
             },
             {
               label: "Shop Grid List",
-              href: "https://greenpath.qodeinteractive.com/shop-grid-list/",
+              href: " /",
             },
             {
               label: "Shop Horizontal Filter",
-              href: "https://greenpath.qodeinteractive.com/shop-horizontal-filter/",
+              href: " /",
             },
             {
               label: "Shop Catalog Images",
-              href: "https://greenpath.qodeinteractive.com/shop-catalog-images/",
+              href: " /",
             },
             {
               label: "Shop Category List",
-              href: "https://greenpath.qodeinteractive.com/shop-category-list/",
+              href: " /",
             },
           ],
         },
@@ -129,23 +129,23 @@ const Header = () => {
           children: [
             {
               label: "Two Columns",
-              href: "https://greenpath.qodeinteractive.com/two-columns-shop/",
+              href: " /",
             },
             {
               label: "Three Columns",
-              href: "https://greenpath.qodeinteractive.com/three-columns-shop/",
+              href: "/",
             },
             {
               label: "Four Columns Grid",
-              href: "https://greenpath.qodeinteractive.com/four-columns-shop-grid/",
+              href: " /",
             },
             {
               label: "Four Columns Wide",
-              href: "https://greenpath.qodeinteractive.com/four-columns-shop-wide/",
+              href: " /",
             },
             {
               label: "Five Columns Wide",
-              href: "https://greenpath.qodeinteractive.com/five-columns-shop-wide/",
+              href: " /",
             },
           ],
         },
@@ -154,47 +154,47 @@ const Header = () => {
           children: [
             {
               label: "Standard",
-              href: "https://greenpath.qodeinteractive.com/product/deluxe-roasted-salted-mixed-nuts-in-sea-salt/",
+              href: " /",
             },
             {
               label: "Big Gallery",
-              href: "https://greenpath.qodeinteractive.com/product/caramelized-peanuts-cereal-energy-bar/",
+              href: "/",
             },
             {
               label: "Big Images",
-              href: "https://greenpath.qodeinteractive.com/product/avocado-the-most-nutrient-dense-superfood-available/",
+              href: "/",
             },
             {
               label: "Countdown Product",
-              href: "https://greenpath.qodeinteractive.com/product/organic-avocado-packed-with-healthy-fats/",
+              href: "/",
             },
             {
               label: "Variable Flavors Product",
-              href: "https://greenpath.qodeinteractive.com/product/healthy-cereal-energy-bars-in-three-different-flavours/",
+              href: "/",
             },
             {
               label: "Variable Weight Product",
-              href: "https://greenpath.qodeinteractive.com/product/handmade-orange-with-passion-fruit-marmelade/",
+              href: "/",
             },
             {
               label: "Variable Colors Product",
-              href: "https://greenpath.qodeinteractive.com/product/energy-bar-dark-chocolate-and-peanut-butter/",
+              href: "/",
             },
             {
               label: "Sale Product",
-              href: "https://greenpath.qodeinteractive.com/product/jam-jar-handmade-created-from-raspberry-fruit/",
+              href: "/",
             },
             {
               label: "New Product",
-              href: "https://greenpath.qodeinteractive.com/product/sparkling-water-flavored-with-fresh-lemon-juice/",
+              href: "/",
             },
             {
               label: "Grouped Product",
-              href: "https://greenpath.qodeinteractive.com/product/nut-mixes-pistachio-almond-and-cashews/",
+              href: "/",
             },
             {
               label: "Thumbnail Images Left",
-              href: "https://greenpath.qodeinteractive.com/product/pineapple-tropical-fruit-sweat-fresh-organic/",
+              href: "/",
             },
           ],
         },
@@ -203,19 +203,19 @@ const Header = () => {
           children: [
             {
               label: "My Account",
-              href: "https://greenpath.qodeinteractive.com/my-account/",
+              href: "",
             },
             {
               label: "Cart",
-              href: "https://greenpath.qodeinteractive.com/cart/",
+              href: "/",
             },
             {
               label: "Checkout",
-              href: "https://greenpath.qodeinteractive.com/checkout/",
+              href: "/",
             },
             {
               label: "Order Tracking",
-              href: "https://greenpath.qodeinteractive.com/order-tracking/",
+              href: "/",
             },
           ],
         },
@@ -232,52 +232,52 @@ const Header = () => {
           children: [
             {
               label: "Right Sidebar",
-              href: "https://greenpath.qodeinteractive.com/right-sidebar/",
+              href: "/",
             },
             {
               label: "Left Sidebar",
-              href: "https://greenpath.qodeinteractive.com/left-sidebar/",
+              href: "/",
             },
             {
               label: "No Sidebar",
-              href: "https://greenpath.qodeinteractive.com/no-sidebar/",
+              href: "/",
             },
           ],
         },
         {
           label: "Masonry",
-          href: "https://greenpath.qodeinteractive.com/masonry-list/",
+          href: "/",
         },
         {
           label: "Post Formats",
           children: [
             {
               label: "Standard",
-              href: "https://greenpath.qodeinteractive.com/tips-for-a-healthier-lifestyle/",
+              href: "/",
             },
             {
               label: "Gallery",
-              href: "https://greenpath.qodeinteractive.com/all-you-can-find-at-local-market/",
+              href: "/",
             },
             {
               label: "Quote",
-              href: "https://greenpath.qodeinteractive.com/organic-nuts-are-a-popular-choice/",
+              href: "/",
             },
             {
               label: "Link",
-              href: "https://greenpath.qodeinteractive.com/find-out-how-to-support-local-markets/",
+              href: "/",
             },
             {
               label: "Audio",
-              href: "https://greenpath.qodeinteractive.com/podcast-eat-feel-good-ep-4/",
+              href: "/",
             },
             {
               label: "Video",
-              href: "https://greenpath.qodeinteractive.com/our-go-to-picks-at-local-markets/",
+              href: "/",
             },
             {
               label: "No Sidebar",
-              href: "https://greenpath.qodeinteractive.com/read-our-guide-about-organic-food/",
+              href: "/",
             },
           ],
         },
@@ -286,7 +286,7 @@ const Header = () => {
     {
       id: "contact",
       label: "Contact",
-      href: "https://greenpath.qodeinteractive.com/contact/",
+      href: "/",
       hasDropdown: false,
     },
   ];
@@ -297,7 +297,7 @@ const Header = () => {
       <div className="container mx-auto py-8 flex items-center justify-between">
         <div className="flex items-center justify-start space-x-8">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="shrink-0">
             <Image
               src="/img/logo.png"
               alt="GreenPath Logo"

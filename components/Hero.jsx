@@ -7,35 +7,38 @@ const Hero = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setOffsetY(window.scrollY);
+      // Use requestAnimationFrame for smoother performance during scroll
+      window.requestAnimationFrame(() => {
+        setOffsetY(window.scrollY);
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-red-600">
-      {/* Background Image with Parallax */}
+    <div className="relative  h-screen w-full overflow-hidden">
+      {/* Background Image Container 
+          - We use a negative translateY to make it move UP while scrolling DOWN.
+          - We use 'will-change-transform' to hint the browser for better performance.
+      */}
       <div
-        className="absolute top-0 left-0 w-full h-[120%] overflow-hidden"
+        className="absolute top-0 left-0 w-full h-[130%] will-change-transform"
         style={{
-          transform: `translateY(${offsetY * 0.5}px)`, // adjust speed here
+          transform: `translateY(${offsetY * -0.3}px)`, // Negative value = moves up
         }}
       >
         <Image
           src="/img/hero.jpeg"
           alt="Hero Image"
           fill
+          priority // Ensures the hero image loads immediately
           className="object-cover"
         />
       </div>
 
-      {/* Overlay Content (optional) */}
-      <div className="relative z-10 flex items-center justify-center h-full text-white">
-        <h1 className="text-5xl font-bold">Hero Section</h1>
-      </div>
+       
     </div>
   );
 };

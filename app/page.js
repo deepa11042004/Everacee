@@ -16,7 +16,7 @@ const page = () => {
   <GallerySection/>
   <TestimonialsSection/>
   <ProductShowcase/>
-  <NutGrid/>
+  <NutGrid/> 
   <Mockup/>
   <NutShowcase/>
   <InfiniteMarquee/>

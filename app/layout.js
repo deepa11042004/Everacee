@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <TopMessageBar />
         <Navbar />
         {children}
-        <Footer/>
+        <Footer/> 
       </body>
     </html>
   );

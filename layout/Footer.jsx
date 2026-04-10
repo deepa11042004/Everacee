@@ -35,17 +35,17 @@ const Footer = () => {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10   flex items-center justify-center text-black font-bold">
+            <div className="flex items-center justify-center md:justify-normal gap-3">
+              <div className="w-10 h-10   flex items-center justify-center   text-black font-bold">
                 <img className='h-full  w-full ' src="/img/site-icon.png" alt="" />
               </div>
               <span className="text-xl font-bold">1111111111</span>
             </div>
-            <div className="flex items-center gap-3 text-base   font-semibold">
+            <div className="flex items-center  justify-center md:justify-normal gap-3 text-base   font-semibold">
               <IoIosMail size={20} />
               <span>greenpath@example.com</span>
             </div>
-            <div className="flex items-center gap-3  text-base font-semibold">
+            <div className="flex items-center   justify-center md:justify-normal gap-3  text-base font-semibold">
               <FaMapMarkerAlt size={20} />
               <span>14 Main Road, New York 1001</span>
             </div>
@@ -55,8 +55,8 @@ const Footer = () => {
 
           
           <div>
-            <h3 className="text-xl font-bold mb-6">Menu</h3>
-            <ul className="space-y-3 text-base opacity-90">
+            <h3 className="text-xl font-bold mb-6 flex flex-col justify-center items-center">Menu</h3>
+            <ul className="space-y-3 text-base opacity-90 flex flex-col justify-center items-center md:items-start md:justify-self-center ">
               <li><a href="#" className="hover:underline">About us</a></li>
               <li><a href="#" className="hover:underline">Landing</a></li>
               <li><a href="#" className="hover:underline">Shop</a></li>
@@ -67,8 +67,8 @@ const Footer = () => {
 
           {/* Categories */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Categories</h3>
-            <ul className="space-y-3 text-base opacity-90">
+            <h3 className="text-xl font-bold mb-6 flex flex-col justify-center items-center">Categories</h3>
+            <ul className="space-y-3 text-base opacity-90 flex flex-col justify-center items-center md:items-start md:justify-self-center">
               <li><a href="#" className="hover:underline">Vegetables</a></li>
               <li><a href="#" className="hover:underline">Fruits</a></li>
               <li className="flex items-center gap-1">
@@ -82,8 +82,8 @@ const Footer = () => {
 
           {/* My Account */}
           <div>
-            <h3 className="text-xl font-bold mb-6">My Account</h3>
-            <ul className="space-y-3 text-base opacity-90">
+            <h3 className="text-xl font-bold mb-6 flex flex-col justify-center items-center">My Account</h3>
+            <ul className="space-y-3 text-base opacity-90 flex flex-col justify-center items-center md:items-start md:justify-self-center">
               <li><a href="#" className="hover:underline">Gift Vouchers</a></li>
               <li><a href="#" className="hover:underline">Wishlist</a></li>
               <li><a href="#" className="hover:underline">Order Tracking</a></li>

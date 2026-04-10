@@ -4,18 +4,18 @@ import Image from "next/image";
 
 const Mockup = () => {
   return (
-    <div className="relative h-[90vh]    w-full overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-[130%] will-change-transform">
-        <Image
-          src="/img/mockup.jpeg"
-          fill
-          className="object-cover"
-          alt="Mockup Image"
-          priority
-        />
-      </div>
+    <div className="h-full md:h-[80vh] w-full ">
+      <Image
+        src="/img/mockup.jpeg"
+        height={900}
+        width={900}
+        className="w-full h-auto object-contain "
+        alt="Mockup Image"
+      />
     </div>
   );
 };
 
 export default Mockup;
+
+

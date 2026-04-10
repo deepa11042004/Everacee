@@ -14,7 +14,7 @@ export default function TopMessageBar() {
       
       {/* Centered Content */}
       <div className="max-w-7xl mx-auto px-4 py-2 text-center font-bold">
-        <Link href="#" target="_blank" className="hover:underline">
+        <Link href="#" target="_blank"  >
           -Free shipping for orders over ₹30-
         </Link>
       </div>

@@ -12,7 +12,7 @@ const NutShowcase = () => {
         <div className="flex gap-4 mb-8 sm:mb-12 w-full max-w-md">
           
           {/* Floating Nuts */}
-          <div className="relative w-1/2 bg-[#F3D7D7] rounded-[40px] sm:rounded-[60px] overflow-hidden aspect-[4/5] flex items-center justify-center p-3 sm:p-4">
+          <div className="relative w-1/2 bg-[#F3D7D7] rounded-[40px] sm:rounded-[60px] overflow-hidden aspect-4/5 flex items-center justify-center p-3 sm:p-4">
             <Image
               src="/img/floating-nuts-image.png"
               alt="Floating Walnuts"
@@ -22,7 +22,7 @@ const NutShowcase = () => {
           </div>
 
           {/* Hands */}
-          <div className="relative w-1/2 rounded-tr-[50px] sm:rounded-tr-[80px] rounded-bl-[50px] sm:rounded-bl-[80px] overflow-hidden aspect-[4/5]">
+          <div className="relative w-1/2 rounded-tr-[50px] sm:rounded-tr-[80px] rounded-bl-[50px] sm:rounded-bl-[80px] overflow-hidden aspect-4/5">
             <Image
               src="/img/hand-nuts.png"
               alt="Pouring Nuts"

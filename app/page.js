@@ -8,6 +8,7 @@ import NutGrid from '@/components/NutGrid'
 import NutShowcase from '@/components/NutShowcase'
 import Mockup from '@/components/Mockup'
 import InfiniteMarquee from '@/components/InfiniteMarquee'
+import AllProduct from '@/components/AllProduct'
 const page = () => {
   return (
   <div className="bg-[#FEF9F3] ">
@@ -20,6 +21,7 @@ const page = () => {
   <Mockup/>
   <NutShowcase/>
   <InfiniteMarquee/>
+  <AllProduct/>
   </div>
   )
 }
